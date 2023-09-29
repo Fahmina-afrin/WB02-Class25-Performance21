@@ -1,0 +1,27 @@
+.gallery{
+    float: left;
+    border: 2px dotted red;
+    width: 180px;
+    padding: 5px;
+    border-radius: 5px 5px 0px 0px;
+    margin-right: 10px;
+}
+img{
+    width: 100%;
+}
+.text{
+    text-align: center;
+}
+a[target="_blank"]{
+    text-decoration: none;
+    color: green;
+    font-weight: blod;
+}
+
+img[title~="first"]{
+    margin-bottom: 15px;
+    border: 4px dotted red;
+}
+[class|="main"]{
+    color: green;
+}
